@@ -1,13 +1,14 @@
 import Card from '../components/Card.jsx'
+import logements from '../data/logements.json'
 
 function Home() {
   return (
     <main>
       <h1>Page d'accueil</h1>
 
-      <Card />
-      <Card />
-      <Card />
+      {logements.map((logement) => (
+        <Card key={logement.id} />
+      ))}
     </main>
   )
 }
