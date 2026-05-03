@@ -1,14 +1,21 @@
+import Banner from '../components/Banner.jsx'
 import Card from '../components/Card.jsx'
 import logements from '../data/logements.json'
 
 function Home() {
   return (
     <main>
-      <h1>Page d'accueil</h1>
+      <Banner />
 
-      {logements.map((logement) => (
-        <Card key={logement.id} />
-      ))}
+      <section className="gallery">
+        {logements.map((logement) => (
+          <Card
+            key={logement.id}
+            title={logement.title}
+            cover={logement.cover}
+          />
+        ))}
+      </section>
     </main>
   )
 }

@@ -1,8 +1,9 @@
-function Card() {
+function Card({ title, cover }) {
     return (
-      <div>
-        <p>Logement</p>
-      </div>
+      <article className="card">
+        <img className="card__image" src={cover} alt={title} />
+        <h2 className="card__title">{title}</h2>
+      </article>
     )
   }
   
