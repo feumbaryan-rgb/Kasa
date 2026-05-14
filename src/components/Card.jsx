@@ -1,10 +1,12 @@
-function Card({ title, cover }) {
-    return (
-      <article className="card">
-        <img className="card__image" src={cover} alt={title} />
-        <h2 className="card__title">{title}</h2>
-      </article>
-    )
-  }
-  
-  export default Card
+import { Link } from 'react-router-dom'
+
+function Card({ id, title, cover }) {
+  return (
+    <Link to={`/logement/${id}`} className="card">
+      <img className="card__image" src={cover} alt={title} />
+      <h2 className="card__title">{title}</h2>
+    </Link>
+  )
+}
+
+export default Card
