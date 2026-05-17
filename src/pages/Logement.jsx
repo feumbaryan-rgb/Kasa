@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom'
 import logements from '../data/logements.json'
+import Collapse from '../components/Collapse.jsx'
 
 function Logement() {
   const { id } = useParams()
@@ -55,6 +56,23 @@ function Logement() {
       </div>
 
       <p>{logement.description}</p>
+      <div className="logement__collapses">
+  <Collapse
+    title="Description"
+    content={logement.description}
+  />
+
+  <Collapse
+    title="Équipements"
+    content={
+      <ul>
+        {logement.equipments.map((equipment) => (
+          <li key={equipment}>{equipment}</li>
+        ))}
+      </ul>
+    }
+  />
+</div>
     </main>
   )
 }
