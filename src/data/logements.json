@@ -1,17 +1,133 @@
 [
     {
-      "id": "1",
-      "title": "Appartement cosy",
-      "cover": "https://picsum.photos/400/300"
+      "id": "c67ab8a7",
+      "title": "Appartement confortable",
+      "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+      "description": "Votre maison loin de chez vous.",
+      "host": {
+        "name": "Nathalie Jean",
+        "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
+      },
+      "rating": "5",
+      "location": "Île de France - Paris 17e",
+      "tags": ["Batignolle", "Montmartre"],
+      "equipments": [
+        "WiFi",
+        "Cuisine",
+        "Télévision"
+      ],
+      "pictures": [
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg"
+      ]
     },
     {
-      "id": "2",
-      "title": "Maison moderne",
-      "cover": "https://picsum.photos/401/300"
+      "id": "b9123946",
+      "title": "Magnifique appartement proche Canal Saint Martin",
+      "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+      "description": "Appartement moderne proche transports.",
+      "host": {
+        "name": "Della Case",
+        "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
+      },
+      "rating": "4",
+      "location": "Île de France - Paris 10e",
+      "tags": ["Canal Saint-Martin", "République"],
+      "equipments": [
+        "Parking",
+        "WiFi",
+        "Cuisine équipée"
+      ],
+      "pictures": [
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-2.jpg"
+      ]
     },
     {
-      "id": "3",
-      "title": "Studio lumineux",
-      "cover": "https://picsum.photos/402/300"
+      "id": "46d188c5",
+      "title": "Studio de charme - Buttes Chaumont",
+      "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
+      "description": "Studio élégant et confortable.",
+      "host": {
+        "name": "Franck Maher",
+        "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
+      },
+      "rating": "3",
+      "location": "Île de France - Paris 20e",
+      "tags": ["Buttes Chaumont", "Studio"],
+      "equipments": [
+        "WiFi",
+        "Télévision",
+        "Cuisine équipée"
+      ],
+      "pictures": [
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-2.jpg"
+      ]
+    },
+    {
+      "id": "7af00cd6",
+      "title": "Nid douillet au coeur du 11ème",
+      "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
+      "description": "Appartement chaleureux proche vie nocturne.",
+      "host": {
+        "name": "Della Case",
+        "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
+      },
+      "rating": "3",
+      "location": "Île de France - Paris 11e",
+      "tags": ["Parmentier", "Marais"],
+      "equipments": [
+        "WiFi",
+        "Télévision",
+        "Climatisation"
+      ],
+      "pictures": [
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-2.jpg"
+      ]
+    },
+    {
+      "id": "0979876d",
+      "title": "Appartement de Standing - 10e",
+      "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
+      "description": "Loft rénové et moderne.",
+      "host": {
+        "name": "Franck Maher",
+        "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
+      },
+      "rating": "5",
+      "location": "Île de France - Paris 10e",
+      "tags": ["Goncourt", "Luxe"],
+      "equipments": [
+        "Parking",
+        "WiFi",
+        "Cuisine"
+      ],
+      "pictures": [
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-2.jpg"
+      ]
+    },
+    {
+      "id": "f72a452f",
+      "title": "Studio d'artiste",
+      "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
+      "description": "Studio décoré avec goût à Montmartre.",
+      "host": {
+        "name": "Ligne Rolland",
+        "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
+      },
+      "rating": "5",
+      "location": "Île de France - Paris 18e",
+      "tags": ["Montmartre", "Culture"],
+      "equipments": [
+        "Parking",
+        "WiFi"
+      ],
+      "pictures": [
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-2.jpg"
+      ]
     }
   ]
