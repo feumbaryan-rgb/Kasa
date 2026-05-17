@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom'
 import logements from '../data/logements.json'
 import Collapse from '../components/Collapse.jsx'
+import Slideshow from '../components/Slideshow.jsx'
 
 function Logement() {
   const { id } = useParams()
@@ -17,11 +18,7 @@ function Logement() {
 
   return (
     <main>
-      <img
-        src={logement.cover}
-        alt={logement.title}
-        className="logement__cover"
-      />
+      <Slideshow pictures={logement.pictures} />
 
       <div className="logement__header">
         <div>
