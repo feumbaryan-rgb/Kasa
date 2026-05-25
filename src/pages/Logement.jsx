@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+import { useParams, Navigate } from 'react-router-dom'
 import logements from '../data/logements.json'
 import Collapse from '../components/Collapse.jsx'
 import Slideshow from '../components/Slideshow.jsx'
@@ -9,11 +9,7 @@ function Logement() {
   const logement = logements.find((item) => item.id === id)
 
   if (!logement) {
-    return (
-      <main>
-        <h1>Logement introuvable</h1>
-      </main>
-    )
+    return <Navigate to="/404" replace />
   }
 
   return (
@@ -47,8 +43,19 @@ function Logement() {
           </div>
 
           <div className="rating">
-            {'★'.repeat(logement.rating)}
-          </div>
+  {[1, 2, 3, 4, 5].map((star) => (
+    <span
+      key={star}
+      className={
+        star <= Number(logement.rating)
+          ? 'star active'
+          : 'star'
+      }
+    >
+      ★
+    </span>
+  ))}
+</div>
         </div>
       </div>
 
