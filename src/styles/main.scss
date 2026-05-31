@@ -214,3 +214,12 @@
       color: white;
     }
   }
+
+  .about {
+    max-width: 1024px;
+    margin: 0 auto;
+  
+    .collapse {
+      margin-bottom: 30px;
+    }
+  }
