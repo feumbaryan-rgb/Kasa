@@ -223,3 +223,42 @@
       margin-bottom: 30px;
     }
   }
+
+
+  @media (max-width: 768px) {
+
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  
+    .logement__header {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .host {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .logement__collapses {
+      flex-direction: column;
+    }
+  
+    .slideshow__image {
+      height: 255px;
+    }
+  
+    .banner {
+      height: 111px;
+    }
+  
+    .banner__title {
+      font-size: 24px;
+    }
+  
+    .footer {
+      padding: 40px 20px;
+    }
+  }
